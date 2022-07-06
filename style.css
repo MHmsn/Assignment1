@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15%;
-    font-size: larger;
+    font-size: x-large;
     height: 80%;
 }
 .link{
@@ -22,4 +22,40 @@ body{
     border-radius: 8px;
     font-weight: 700;
     color: white;
+    font-size: x-large;
+    margin-top: 20px;
+}
+.secondtext{
+    font-size: x-large;
+    text-align: center;
+    padding: 5%;
+}
+#amounts{
+    display: flex;
+    justify-content: center;
+}
+.takas{
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+    font-size: x-large;
+}
+#chosentaka{
+    color: red;
+    background-color: rgba(128, 128, 128, 0.452);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+    font-size: x-large;
+    border: 5px solid red;
+}
+#textbox{
+    font-size: 30px;
+    text-align: center;
+    border: 0;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    padding: 0px 20%;
+    
 }
