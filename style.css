@@ -1,10 +1,12 @@
 body{
     margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .firsttext p{
     font-weight: 600;
 }
 .firsttext{
+    
     text-align: center;
     background-image: url(Images/donation13.jpg);
     color: white;
@@ -14,6 +16,7 @@ body{
     padding: 15%;
     font-size: x-large;
     height: 80%;
+    
 }
 .link{
     background: linear-gradient(to right,orange, tomato );
@@ -24,18 +27,20 @@ body{
     color: white;
     font-size: x-large;
     margin-top: 20px;
+    
 }
 .secondtext{
     font-size: x-large;
     text-align: center;
     padding: 5%;
 }
-#amounts{
+.amounts{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 .takas{
-    background-color: rgba(128, 128, 128, 0.452);
+    background-color: rgba(128, 128, 128, 0.096);
     border-radius: 10px;
     padding: 50px;
     margin: 10px;
@@ -43,7 +48,7 @@ body{
 }
 #chosentaka{
     color: red;
-    background-color: rgba(128, 128, 128, 0.452);
+    background-color: rgba(255, 0, 0, 0.103);
     border-radius: 10px;
     padding: 50px;
     margin: 10px;
@@ -58,4 +63,66 @@ body{
     margin-top: 10px;
     padding: 0px 20%;
     
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.plan{
+    text-align: left;
+    border-radius: 10px;
+    padding: 60px 30px;
+    margin: 1%;
+}
+#plan1{
+    background-color: aquamarine;
+}
+#plan2{
+    background-color: cadetblue;
+}
+#plan3{
+    background-color: skyblue;
+}
+#updates{
+    text-align: center;
+    font-size: x-large;
+}
+
+#email{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgba(0, 255, 255, 0.308);
+    padding: 10% 10%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 80px;
+}
+#emailbox{
+    font-size: 40px;
+}
+#subscribe{
+    background: linear-gradient(to right,orange, tomato );
+    text-decoration: none;
+    padding: 13px 26px;
+    font-weight: 700;
+    color: white;
+    font-size: x-large;
+    border: none;
+}
+
+
+#foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: x-large;
+}
+#foot h3{
+    color: coral;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
 }

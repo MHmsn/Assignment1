@@ -6,23 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Today</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Trispace&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="firsttext">
             <h1>Let's Help Those Who Are More In Need</h1>
-            <p>Let's help people as much as we can and let them live a better life</p>
-            <a href="index.html" class="link">Donate Now</a>
+            <p>Let's help people as much as we can and let them live a better and healthy life.</p>
+            <br>
+            <a class="link" href="index.html" >Donate Now</a>
     </div>
     <div class="secondtext">
         <h2>Donate Today</h2>
-        <p>Donate as much as you can, even a small amount from you, can mean a lot for someone in need</p>
+        <p>Donate as much as you can, even a small amount from you, can mean a lot for someone in need.</p>
     
-        <div id="amounts">
-            <h3 class="takas">100tk</h3>
-            <h3 id="chosentaka">200tk</h3>
-            <h3 class="takas">500tk</h3>
-            <h3 class="takas">1000tk</h3>
-            <h3 class="takas">5000tk</h3>
+        <div class="amounts">
+            <h3 class="takas">100 Taka</h3>
+            <h3 id="chosentaka" class="takas">200 Taka</h3>
+            <h3 class="takas">500 Taka</h3>
+            <h3 class="takas">1000 Taka</h3>
+            <h3 class="takas">5000 Taka</h3>
         </div>
         <form>
             <input id="textbox" type="text" placeholder="Other Amount(Taka)">
@@ -30,29 +37,45 @@
             <input class="link" type="submit" value="Donate Now">
         </form>
     </div>
-    <h2>Our Donate Plan</h2>
-    <p>Here's how our method can aid other people in need, with your help. </p>
-
-    <h4>Food for a family</h4>
-    <p>The money donated can provide food for families that do not have the affordability to have proper meal. </p>
-
-    <h4>Shelter for a family</h4>
-    <p>Donation can provide shelter for homeless people and families and give them a proper place to live </p>
-
-    <h4>Education for a child</h4>
-    <p>There are many child who are out of the light of education. They will get a chance of going to school and get educated.</p>
-
+    
+    <div class="secondtext">
+        <h2>Our Donate Plan</h2>
+        <p>Here's how our method can aid other people in need, with your help. </p>
+        <br>
+        <br>
+        <br>
+       <div class="amounts"> 
+        <div id="plan1" class="plan">
+            <img class="icon" src="Icons/food.png" alt="food icon">
+            <h4>Food for a family</h4>
+            <p>The donated money can provide food for families that do not have the affordability to have proper meal. </p>
+        </div>
+        <div id="plan2" class="plan"> 
+            <img class="icon" src="Icons/shelter.png" alt="edu icon">
+            <h4>Shelter for a family</h4>
+            <p>Donation can provide shelter for homeless people and families, giving them a proper place to live. </p>
+        </div>
+        <div id="plan3" class="plan">
+            <img class="icon" src="Icons/icon4.svg" alt="edu icon">
+            <h4>Education for a child</h4>
+            <p>There are many families where children are out of the light of education. They will get a chance of going to school and get educated.</p>
+        </div>
+    </div>
+    </div>
+    <div id="updates">
     <h2>Get Our Updates</h2>
     <p>Subscribe with your email to get updates from us</p>
 
     <form>
-        <input type="email" placeholder="Email">
-        <input type="submit" value="Subscribe">
+        <div id="email">
+        <input id="emailbox" type="text" placeholder="Email">
+        <button id="subscribe" type="submit">Subscribe</button>
+        </div>
     </form>
-    
-    <footer>
+    </div>
+    <footer id="foot">
         <h3>Be Humble</h3>
-        <h5>Be Compassionate</h5>
+        <h6>Be Compassionate.</h6>
     </footer>
     
 </body>
